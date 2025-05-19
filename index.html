@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Interactive Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎮 JavaScript Interactive Playground</h1>
+
+    <!-- Event Handling -->
+    <button id="clickBtn">Click Me!</button>
+    <button id="colorBtn">Change My Color</button>
+    <p id="hoverText">Hover over me!</p>
+    <p id="keyDisplay">Press any key...</p>
+    <p id="secretAction">Double-click me for a surprise!</p>
+
+    <!-- Image Gallery -->
+    <div class="gallery">
+      <img id="galleryImage" src="https://via.placeholder.com/300" alt="Gallery" />
+      <button id="nextImage">Next Image</button>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab" data-tab="1">Tab 1</button>
+      <button class="tab" data-tab="2">Tab 2</button>
+      <div id="tabContent1" class="tab-content">Content for Tab 1</div>
+      <div id="tabContent2" class="tab-content hidden">Content for Tab 2</div>
+    </div>
+
+    <!-- Form -->
+    <form id="signupForm">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Sign Up</button>
+      <p id="formMessage"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
